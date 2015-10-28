@@ -10,7 +10,7 @@ if os.path.exists("log.xml"):
 os.system("ant build")
 
 
-os.system("adb push bin/newtest.jar /data/local/tmp/")	
+os.system("adb push bin/news.jar /data/local/tmp/")	
 
 
 for line in fileinput.input("testsuites.txt"):
