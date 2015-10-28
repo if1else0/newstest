@@ -1,0 +1,2 @@
+com.news.test.testcases.TestCase1
+com.news.test.testcases.TestCase2
