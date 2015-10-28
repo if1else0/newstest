@@ -15,7 +15,7 @@ os.system("adb push bin/newtest.jar /data/local/tmp/")
 
 for line in fileinput.input("testsuites.txt"):
 	if len(line.strip()) != 0 :
-		exeStr = "adb shell uiautomator runtest newtest.jar -c " + line.strip() + " >>log.txt"
+		exeStr = "adb shell uiautomator runtest news.jar -c " + line.strip() + " >>log.txt"
 	  	os.system(exeStr)  
 
 os.system("java -jar log-converter.jar log.txt")
