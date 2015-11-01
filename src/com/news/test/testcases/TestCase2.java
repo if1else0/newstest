@@ -14,7 +14,7 @@ public class TestCase2 extends BasicTestCase {
 		//跳转到新闻页面
 		pm.getPageNavigation().goToNewsTab();
 		//点击第2条新闻
-		pm.getPageNews().clickNewTitle(2);
+		pm.getPageNews().clickNewTitle(3);
 		//在新闻详情页面点击分享按钮
 		pm.getPageNewsDetail().clickShareButton();
 		//点击分享页面的QQ好友选项 
