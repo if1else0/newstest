@@ -41,7 +41,7 @@ public class TestCase1 extends BasicTestCase{
 		//获取需要点击那一行到新闻标题
 		String expect = pm.getPageNews().getNewsTitleText(2);
 		//点击指定到新闻行
-		pm.getPageNews().clickNewTitle(2);
+		pm.getPageNews().clickNewTitle(3);
 		//在新闻详情页点击右上角的更多按钮
 		pm.getPageNewsDetail().clickMoreTextView();
 		//点击收藏
